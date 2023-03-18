@@ -2,7 +2,9 @@
     background-color:cornflowerblue;
     font-family:Verdana;
     text-align: center;
-    font-size:50px;
+    font-size:25px;
+    padding:25px;
+    text-transform: uppercase;
 }
 .topnav {
     overflow: hidden;
@@ -13,7 +15,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -28,4 +30,26 @@
     float: right;
     background-color: #f3511b;
     color: white;
+  }
+  .left_content {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: left;
+    font-style: italic;
+    background-color: lightgray;
+  }
+  .right_content {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+  .main_content {    
+    text-align: center;
+    float: center;
+    font-style: bold;
+    background-color: rgb(231, 192, 192);
   }
