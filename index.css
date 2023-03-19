@@ -53,3 +53,33 @@
     font-style: bold;
     background-color: rgb(231, 192, 192);
   }
+  .main_content .button1 {
+    position:absolute;
+    top: 85%;
+    right:37%;
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    background-color: #010101;
+      color: white;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+  }
+  .button1:hover {
+    background-color:white;
+    color: black;
+    }
+  .button:active {
+     /*background-color: rgb(155, 237, 100);*/
+      transform: translateY(4px);
+   }
+   footer {
+    text-align: center;
+    padding: 3px;
+    background-color: cornflowerblue;
+    color: rgb(18, 12, 12);
+    text-transform:uppercase;
+  }
